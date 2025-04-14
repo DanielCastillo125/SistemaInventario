@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsMovimientos" targetNamespace="http://tempuri.org/DsMovimientos.xsd" xmlns:mstns="http://tempuri.org/DsMovimientos.xsd" xmlns="http://tempuri.org/DsMovimientos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsMovimientos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DsMovimientos" msprop:Generator_DataSetName="DsMovimientos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtMovimientos" msprop:Generator_RowEvHandlerName="dtMovimientosRowChangeEventHandler" msprop:Generator_RowDeletedName="dtMovimientosRowDeleted" msprop:Generator_RowDeletingName="dtMovimientosRowDeleting" msprop:Generator_RowEvArgName="dtMovimientosRowChangeEvent" msprop:Generator_TablePropName="dtMovimientos" msprop:Generator_RowChangedName="dtMovimientosRowChanged" msprop:Generator_RowChangingName="dtMovimientosRowChanging" msprop:Generator_TableClassName="dtMovimientosDataTable" msprop:Generator_RowClassName="dtMovimientosRow" msprop:Generator_TableVarName="tabledtMovimientos" msprop:Generator_UserTableName="dtMovimientos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MovimientoID" msprop:Generator_ColumnPropNameInRow="MovimientoID" msprop:Generator_ColumnPropNameInTable="MovimientoIDColumn" msprop:Generator_ColumnVarNameInTable="columnMovimientoID" msprop:Generator_UserColumnName="MovimientoID" type="xs:string" minOccurs="0" />
+              <xs:element name="NombreProducto" msprop:Generator_ColumnPropNameInRow="NombreProducto" msprop:Generator_ColumnPropNameInTable="NombreProductoColumn" msprop:Generator_ColumnVarNameInTable="columnNombreProducto" msprop:Generator_UserColumnName="NombreProducto" type="xs:string" minOccurs="0" />
+              <xs:element name="TipoMovimiento" msprop:Generator_ColumnPropNameInRow="TipoMovimiento" msprop:Generator_ColumnPropNameInTable="TipoMovimientoColumn" msprop:Generator_ColumnVarNameInTable="columnTipoMovimiento" msprop:Generator_UserColumnName="TipoMovimiento" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_UserColumnName="Cantidad" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaMovimiento" msprop:Generator_ColumnPropNameInRow="FechaMovimiento" msprop:Generator_ColumnPropNameInTable="FechaMovimientoColumn" msprop:Generator_ColumnVarNameInTable="columnFechaMovimiento" msprop:Generator_UserColumnName="FechaMovimiento" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
